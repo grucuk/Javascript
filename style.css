@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: lightgrey;
+}
+button {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.container_box {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.left_box {
+  padding: 0;
+  margin: 0 auto;
+  list-style-type: none;
+  width: 210px;
+  height: 210px;
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: center;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.right_box {
+  padding: 0;
+  margin: 0 auto;
+  list-style-type: none;
+  width: 210px;
+  height: 210px;
+  background-color: gray;
+  display: inline-block;
+}
+
+.box__item {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 53px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background: url(unnamed.jpg);
+  background-size: cover;
+  background-size: 400%;
+  color: palegreen;
+}
+.box__item2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: flex-start;
+  width: 52px;
+  height: 53px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.box__item:hover {
+  transform: scale(1.05);
+}
+
+.item-1 {
+  background-position: 0% 0%;
+  order: 0;
+}
+
+.item-2 {
+  background-position: 33% 0%;
+  order: 3;
+}
+
+.item-3 {
+  background-position: 66% 0%;
+}
+
+.item-4 {
+  background-position: 99% 0%;
+  order: 2;
+}
+
+.item-5 {
+  background-position: 0% 33%;
+}
+
+.item-6 {
+  background-position: 33% 33%;
+  order: 1;
+}
+
+.item-7 {
+  background-position: 66% 33%;
+}
+
+.item-8 {
+  background-position: 99% 33%;
+  order: 1;
+}
+.item-9 {
+  background-position: 0% 66%;
+}
+
+.item-10 {
+  background-position: 33% 66%;
+}
+
+.item-11 {
+  background-position: 66% 66%;
+}
+
+.item-12 {
+  background-position: 99% 66%;
+  order: 1;
+}
+
+.item-13 {
+  background-position: 0% 99%;
+  order: 0;
+}
+
+.item-14 {
+  background-position: 33% 99%;
+}
+
+.item-15 {
+  background-position: 66% 99%;
+}
+
+.item-16 {
+  background-position: 99% 99%;
+  order: 2;
+}
